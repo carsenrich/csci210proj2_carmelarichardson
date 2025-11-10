@@ -1,0 +1,16 @@
+MKDIR SUCCESS: node a successfully created
+MKDIR SUCCESS: node b successfully created
+TO BE IMPLEMENTED: cd a
+MKDIR ERROR: directory b already exists
+/
+|---a
+|   
+`---b
+TO BE IMPLEMENTED: cd /
+TO BE IMPLEMENTED: touch f1.txt
+MKDIR SUCCESS: node c successfully created
+/
+|---a
+|---b
+|   
+`---c
