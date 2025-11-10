@@ -1,14 +1,11 @@
+#include "types.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include "otherCommands.h"
+
+extern struct NODE* cwd;
 
 void ls(char temp[]) {
     printf("TO BE IMPLEMENTED: ls %s\n", temp);
-}
-
-void pwd() {
-    printf("TO BE IMPLEMENTED: pwd\n");
 }
 
 void cd(char temp[]) {
@@ -25,4 +22,8 @@ void touch(char temp[]) {
 
 void rmdir(char temp[]) {
     printf("TO BE IMPLEMENTED: rmdir %s\n", temp);
+}
+
+void pwd() {
+    printf("TO BE IMPLEMENTED: pwd\n");
 }
