@@ -1,0 +1,14 @@
+MKDIR SUCCESS: node a successfully created
+MKDIR SUCCESS: node a/b successfully created
+MKDIR SUCCESS: node a/b/c successfully created
+TO BE IMPLEMENTED: rmdir a/b
+MKDIR ERROR: directory c already exists
+TO BE IMPLEMENTED: rmdir a/b/c
+MKDIR ERROR: directory c already exists
+/
+|   
+`---a
+    |   
+    `---b
+        |   
+        `---c
